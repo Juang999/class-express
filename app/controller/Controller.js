@@ -1,7 +1,8 @@
 class Controller {
     constructor () {
         return {
-            UserController: require('./UserController')
+            UserController: require('./UserController'),
+            BookController: require('./BookController')
         }
     }
 }
